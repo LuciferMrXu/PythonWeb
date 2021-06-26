@@ -1,0 +1,7 @@
+[auth]
+token="afa260959913485283d66144ed5c5969e1d392b265884486abbb83f20ee5ad9e"
+
+[defaults]
+url = http://172.31.184.60:9000/
+org = iflytek
+project = front_end_project

@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: "django_web"
+    container_name: MyDjango
+    ports:
+    - "8020:8020"

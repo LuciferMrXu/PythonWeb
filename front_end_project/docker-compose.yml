@@ -1,0 +1,13 @@
+version: '3'
+services: 
+   nginx-font: 
+      build: "./"
+      image: "vue_web"
+      privileged: true
+      restart: always
+      container_name: vue_web_c
+      ports: 
+         - "9528:9528"
+      volumes: 
+         - "/home/wtxu3/ai-conf-platform/front_end_project/dist:/home/wtxu3/ai-conf-platform/front_end_project/dist"
+         - "/home/wtxu3/ai-conf-platform/backend_project/media:/home/wtxu3/ai-conf-platform/backend_project/media"
